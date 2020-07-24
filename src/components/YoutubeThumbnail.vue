@@ -10,7 +10,7 @@ export default class YoutubeThumbnail extends Vue {
   @Prop() youtubeVideoId!: string
 
   get youtubeThumbnailLink(): string {
-    return `https://img.youtube.com/vi/${this.youtubeVideoId}/mqdefault.jpg`
+    return `https://img.youtube.com/vi/${this.youtubeVideoId}/maxresdefault.jpg`
   }
 }
 </script>
